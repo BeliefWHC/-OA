@@ -1,0 +1,227 @@
+{
+"demId": 1,
+"demName": "行政维度",
+"childOrgs": [{
+"childOrgs": [{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000080023,
+"orgName": "人力资源部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000080024,
+"orgName": "行政部"
+}
+],
+"orgId": 10000000080018,
+"orgName": "人事行政"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000080031,
+"orgName": "储运部"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000090026,
+"orgName": "库房"
+}],
+"orgId": 10000000080029,
+"orgName": "计划部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000080030,
+"orgName": "采购部"
+}
+],
+"orgId": 10000000080021,
+"orgName": "供应链"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000000044,
+"orgName": "IT部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000045,
+"orgName": "信息部"
+}
+],
+"orgId": 10000000000034,
+"orgName": "信息中心"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000080027,
+"orgName": "商务部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000080026,
+"orgName": "服务部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000080028,
+"orgName": "销售部"
+}
+],
+"orgId": 10000000080020,
+"orgName": "市场"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000000040,
+"orgName": "企划部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090017,
+"orgName": "数据中心"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090018,
+"orgName": "文控中心"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090019,
+"orgName": "法务部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090020,
+"orgName": "秘书室"
+}
+],
+"orgId": 10000000000029,
+"orgName": "总经办"
+},
+{
+"childOrgs": [{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000090029,
+"orgName": "中试部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090027,
+"orgName": "工艺部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090028,
+"orgName": "装备部"
+}
+],
+"orgId": 10000000090021,
+"orgName": "工艺工程部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000049,
+"orgName": "模块制造部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000052,
+"orgName": "系统制造部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000050,
+"orgName": "系统技术部"
+}
+],
+"orgId": 10000000000030,
+"orgName": "生产运营"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000005320029,
+"orgName": "PCB部"
+},
+{
+"childOrgs": [],
+"orgId": 10000005320009,
+"orgName": "汽车研发部"
+},
+{
+"childOrgs": [],
+"orgId": 10000005350015,
+"orgName": "测试部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000055,
+"orgName": "电梯研发部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000000054,
+"orgName": "结构部"
+},
+{
+"childOrgs": [],
+"orgId": 10000005350019,
+"orgName": "综合办"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090022,
+"orgName": "驱动研究室"
+}
+],
+"orgId": 10000000000035,
+"orgName": "研发中心"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000080025,
+"orgName": "财务部"
+}],
+"orgId": 10000000080019,
+"orgName": "财务"
+},
+{
+"childOrgs": [{
+"childOrgs": [],
+"orgId": 10000000090023,
+"orgName": "品质检验部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090024,
+"orgName": "维修部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000080032,
+"orgName": "质量体系部"
+},
+{
+"childOrgs": [],
+"orgId": 10000000090025,
+"orgName": "质量工程部"
+}
+],
+"orgId": 10000000080022,
+"orgName": "质量"
+}
+],
+"orgId": 10000000000028,
+"orgName": "索德电气工业有限公司"
+}]
+}

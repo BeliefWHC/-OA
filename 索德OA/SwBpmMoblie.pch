@@ -1,0 +1,57 @@
+//
+//  SwBpmMoblie.pch
+//  索德OA
+//
+//  Created by sw on 18/5/14.
+//  Copyright © 2018年 sw. All rights reserved.
+//
+
+#ifndef SwBpmMoblie_pch
+#define SwBpmMoblie_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+
+#define WLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+
+#else
+
+#define WLog(...)
+
+#endif
+#define  SELF_VIEW_WIDTH self.view.frame.size.width
+#define DEFAULTS [NSUserDefaults standardUserDefaults]
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+#define STATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame]
+#define NAVICATION_BAR_HEIGHT self.navigationController.navigationBar.frame
+#define APP_KEY @"82hegw5u8ypax"
+
+//外网
+#define BPMX_LOCAL @"http://oa3.swordelec.com:8080/"
+#define BPMX @"bpmx"
+//登录接口
+#define BPMX_LOGIN @"bpmx/weixin/login.ht"
+//获取所有好友列表
+#define FRIEN_LIST_URL @"/weixin/orgDialog/userList.ht"
+//#define BPMX_LOCAL @"http://192.168.0.160:8080/"
+
+//聊天相关
+#import <RongIMKit/RongIMKit.h>
+#import "pinyin.h"
+//颜色
+#define HEXCOLOR(rgbValue)                                                                                             \
+[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0                                               \
+green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0                                                  \
+blue:((float)(rgbValue & 0xFF)) / 255.0                                                           \
+alpha:1.0]
+//tag  集合
+#define MAIL_CONTACT_ITEM_TAG 10000
+///是否第一次登陆
+#define APPFIRSTLOGIN [NSString stringWithFormat:@"appfirstlogin%@",[RCIM sharedRCIM].currentUserInfo.userId]
+#define FRIEND_LIST_UPTATE_TIME @"friendlistupdatetime"
+
+#endif /* SwBpmMoblie_pch */
