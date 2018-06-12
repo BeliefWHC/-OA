@@ -114,6 +114,9 @@
     if (!friendDetails.portraitUri || friendDetails.portraitUri.length <= 0) {
         friend.portraitUri = [RCDUtilities defaultUserPortrait:friendDetails];
     }
+    else{
+        friend.portraitUri = [NSString stringWithFormat:@"%@%@%@",BPMX_LOCAL,BPMX,friendDetails.portraitUri];
+    }
     return friend;
 }
 @end

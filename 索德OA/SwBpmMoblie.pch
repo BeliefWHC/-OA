@@ -54,4 +54,7 @@ alpha:1.0]
 #define APPFIRSTLOGIN [NSString stringWithFormat:@"appfirstlogin%@",[RCIM sharedRCIM].currentUserInfo.userId]
 #define FRIEND_LIST_UPTATE_TIME @"friendlistupdatetime"
 
+//设备信息
+#define IOS_FSystenVersion ([[[UIDevice currentDevice] systemVersion] floatValue])
+
 #endif /* SwBpmMoblie_pch */
