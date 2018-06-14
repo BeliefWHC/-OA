@@ -99,7 +99,7 @@ typedef enum {
     CGFloat rowMargin = 1;
     //Item索引 ->根据需求改变索引
     NSUInteger index = 4;
-    NSArray *titleArr = @[@"所有人",@"同部门",@"组织",@"常联系"];
+    NSArray *titleArr = @[@"所有人",@"同部门",@"组织",@"我的群组"];
     NSArray *titleImageArr = @[@"mecenterhot",@"mecenterhot",@"mecenterhot",@"mecenterhot"];
     //TIANt添加手势
     for (int i = 0 ; i< index; i++) {

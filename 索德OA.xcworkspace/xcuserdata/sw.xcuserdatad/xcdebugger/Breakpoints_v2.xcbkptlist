@@ -1969,11 +1969,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "549822155.759338"
+            timestampString = "550478829.140793"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2017,11 +2017,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "549855089.122071"
+            timestampString = "550478829.140793"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2033,11 +2033,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "549855114.108276"
+            timestampString = "550478829.140793"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2518,6 +2518,182 @@
             startingLineNumber = "114"
             endingLineNumber = "114"
             landmarkName = "-getRCUserInfoByRCDUserInfo:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465579.41372"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465608.880515"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465620.0183049"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465648.977033"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "284"
+            endingLineNumber = "284"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465952.023145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "298"
+            endingLineNumber = "298"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550465967.885561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "296"
+            endingLineNumber = "296"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "550466019.647258"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "389"
+            endingLineNumber = "389"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
+            timestampString = "550567943.242486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
+            timestampString = "550567943.242486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
+            timestampString = "550567943.242486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
+            timestampString = "550567943.242486"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-getGroupInfoWithGroupId:completion:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
