@@ -34,8 +34,8 @@
         RCDUserInfo *user1 = (RCDUserInfo *)obj1;
         RCDUserInfo *user2 = (RCDUserInfo *)obj2;
 
-        user1.updatedAt = [self formatTime:user1.updatedAt];
-        user2.updatedAt = [self formatTime:user2.updatedAt];
+//        user1.updatedAt = [self formatTime:user1.updatedAt];
+//        user2.updatedAt = [self formatTime:user2.updatedAt];
 
         NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
         [formatter setDateFormat:@"yyyy/MM/dd/hh/mm/ss"];

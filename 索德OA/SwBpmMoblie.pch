@@ -28,16 +28,24 @@
 
 #define STATUS_BAR_HEIGHT [[UIApplication sharedApplication] statusBarFrame]
 #define NAVICATION_BAR_HEIGHT self.navigationController.navigationBar.frame
-#define APP_KEY @"82hegw5u8ypax"
+#define APP_KEY @"z3v5yqkbz1930"//腾哥的
+//#define APP_KEY @"82hegw5u8ypax"  //自己测试的
 
-//外网
-#define BPMX_LOCAL @"http://oa3.swordelec.com:8080/"
+
 #define BPMX @"bpmx"
 //登录接口
-#define BPMX_LOGIN @"bpmx/weixin/login.ht"
+#define BPMX_LOGIN @"bpmx/app/login.ht"
+//创建群组
+#define CREAT_GROUP @"bpmx/app/createGroup.ht"
+//根据ID获得区群组成员
+#define GET_GROUP_MEMBERS_BY_ID @"bpmx/app/getGroupMembers.ht"
+//根据ID获得群组信息
+#define GET_GROUP_INFO_BY_ID @"bpmx/app/getGroupNameById.ht"
 //获取所有好友列表
 #define FRIEN_LIST_URL @"/weixin/orgDialog/userList.ht"
-//#define BPMX_LOCAL @"http://192.168.0.160:8080/"
+//外网
+//#define BPMX_LOCAL @"http://oa3.swordelec.com:8080/"
+#define BPMX_LOCAL @"http://192.168.0.160:8080/"
 
 //聊天相关
 #import <RongIMKit/RongIMKit.h>
@@ -53,6 +61,9 @@ alpha:1.0]
 ///是否第一次登陆
 #define APPFIRSTLOGIN [NSString stringWithFormat:@"appfirstlogin%@",[RCIM sharedRCIM].currentUserInfo.userId]
 #define FRIEND_LIST_UPTATE_TIME @"friendlistupdatetime"
+
+//发送信息同步信息
+#define SEND_GET_FRIEND_LIST_SUCCESS @"getgriendsuccess"
 
 //设备信息
 #define IOS_FSystenVersion ([[[UIDevice currentDevice] systemVersion] floatValue])

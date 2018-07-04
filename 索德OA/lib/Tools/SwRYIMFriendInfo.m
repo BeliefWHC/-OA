@@ -9,6 +9,7 @@
 #import "SwRYIMFriendInfo.h"
 #import "RCDUserInfo.h"
 #import "RCDataBaseManager.h"
+#import "RCDHttpTool.h"
 
 static SwRYIMFriendInfo *swFriendInfo = nil;
 
@@ -60,11 +61,17 @@ static SwRYIMFriendInfo *swFriendInfo = nil;
 }
 -(void)getGroupInfoWithGroupId:(NSString *)groupId completion:(void (^)(RCGroup *))completion
 {
-//获取群信息 第一种方案在线取  第二种方案数据库取 初次加载的时候吧所有群组获取出来
+//获取群信息 第一种方案在线取  第二种方案数据库取 初次加载的时候吧所有群组获取出来  减少内存全部外部拿取
     
-    RCGroup *group = [[RCGroup alloc]initWithGroupId:groupId groupName:@"测试" portraitUri:@"https://b-ssl.duitang.com/uploads/item/201409/14/20140914161215_wWW2S.jpeg"];
-    [[RCDataBaseManager shareInstance] getGroupByGroupId:@""];
-    completion(group);
+    //开发者调自己的服务器接口根据userID异步请求数据
+    if ([groupId integerValue] > 0) {
+        [RCDHTTPTOOL getGroupByID:groupId
+                successCompletion:^(RCDGroupInfo *group) {
+                                    completion(group);
+                }];
+    }
+ 
+
     
     
 }

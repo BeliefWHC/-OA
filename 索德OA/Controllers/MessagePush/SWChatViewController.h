@@ -10,4 +10,6 @@
 
 @interface SWChatViewController : RCConversationViewController
 
+@property(assign,nonatomic)BOOL needPopToRootView;
+
 @end

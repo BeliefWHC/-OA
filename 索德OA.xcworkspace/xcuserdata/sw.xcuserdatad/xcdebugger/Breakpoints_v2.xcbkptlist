@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "548765938.2486579"
+            timestampString = "550637439.5411741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "69"
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "548765938.2486579"
+            timestampString = "551867718.532624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "219"
-            endingLineNumber = "219"
-            landmarkName = "-getIMToken"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,28 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "551867718.532624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "312"
-            endingLineNumber = "312"
-            landmarkName = "-ceshiLogin"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "318"
-            endingLineNumber = "318"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -116,12 +100,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "550659269.315207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "305"
-            endingLineNumber = "305"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "328"
+            endingLineNumber = "328"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
             <Locations>
                <Location
@@ -164,12 +148,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "550659269.315207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "304"
-            endingLineNumber = "304"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -180,11 +164,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "365"
-            endingLineNumber = "365"
+            startingLineNumber = "378"
+            endingLineNumber = "378"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -196,11 +180,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "299"
-            endingLineNumber = "299"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
             landmarkName = "-friendsTabelView"
             landmarkType = "7">
          </BreakpointContent>
@@ -228,11 +212,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "395"
-            endingLineNumber = "395"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -244,11 +228,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "399"
-            endingLineNumber = "399"
+            startingLineNumber = "412"
+            endingLineNumber = "412"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -260,7 +244,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "548765938.2486579"
+            timestampString = "550637439.5411741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "214"
@@ -275,137 +259,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "236"
-            endingLineNumber = "236"
-            landmarkName = "-getIMToken"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "241"
-            endingLineNumber = "241"
-            landmarkName = "-getIMToken"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "232"
-            endingLineNumber = "232"
-            landmarkName = "-getIMToken"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__33-[LoginViewController getIMToken]_block_invoke"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548618257.27548"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "226"
-                  endingLineNumber = "226"
-                  offsetFromSymbolStart = "830">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__33-[LoginViewController getIMToken]_block_invoke_2"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548618257.277499"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "226"
-                  endingLineNumber = "226"
-                  offsetFromSymbolStart = "111">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__copy_helper_block_"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548618257.279246"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "226"
-                  endingLineNumber = "226"
-                  offsetFromSymbolStart = "51">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548618257.280836"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "226"
-                  endingLineNumber = "226"
-                  offsetFromSymbolStart = "29">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__33-[LoginViewController getIMToken]_block_invoke.212"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548618257.28247"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "226"
-                  endingLineNumber = "226"
-                  offsetFromSymbolStart = "26">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "398"
-            endingLineNumber = "398"
+            startingLineNumber = "411"
+            endingLineNumber = "411"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -417,12 +276,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "551867718.532624"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "314"
-            endingLineNumber = "314"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
             <Locations>
                <Location
@@ -465,11 +324,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "479"
-            endingLineNumber = "479"
+            startingLineNumber = "492"
+            endingLineNumber = "492"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -481,11 +340,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/BaseController/BaseNavViewController.m"
-            timestampString = "548749176.616349"
+            timestampString = "551256627.564092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "-pushViewController:animated:"
             landmarkType = "7">
          </BreakpointContent>
@@ -497,7 +356,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "548765938.2486579"
+            timestampString = "550637439.5411741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "130"
@@ -513,11 +372,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/BaseController/BaseNavViewController.m"
-            timestampString = "548749176.616349"
+            timestampString = "551256627.564092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "-pushViewController:animated:"
             landmarkType = "7">
          </BreakpointContent>
@@ -529,11 +388,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/BaseController/BaseNavViewController.m"
-            timestampString = "548749176.616349"
+            timestampString = "551256627.564092"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-pushViewController:animated:"
             landmarkType = "7">
          </BreakpointContent>
@@ -545,11 +404,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
-            timestampString = "549454301.086992"
+            timestampString = "551255877.48114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -561,11 +420,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
-            timestampString = "549454301.086992"
+            timestampString = "551255877.48114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -577,11 +436,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
-            timestampString = "548749258.554689"
+            timestampString = "551255877.48114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "106"
-            endingLineNumber = "106"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -593,11 +452,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
-            timestampString = "548749266.509194"
+            timestampString = "551255877.48114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -609,11 +468,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
-            timestampString = "548749314.4796261"
+            timestampString = "551255877.48114"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -625,45 +484,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "550659269.315207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "278"
+            endingLineNumber = "278"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[LoginViewController ceshiLogin]"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548751922.9662189"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "289"
-                  endingLineNumber = "289"
-                  offsetFromSymbolStart = "308">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__33-[LoginViewController ceshiLogin]_block_invoke"
-                  moduleName = "&#x7d22;&#x5fb7;OA"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/sw/Desktop/OA%E5%B9%B3%E5%8F%B0/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/LoginViewController.m"
-                  timestampString = "548751922.968439"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "291"
-                  endingLineNumber = "291"
-                  offsetFromSymbolStart = "72">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -673,12 +500,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "550659269.315207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "300"
-            endingLineNumber = "300"
-            landmarkName = "-ceshiLogin"
+            startingLineNumber = "281"
+            endingLineNumber = "281"
+            landmarkName = "-LoginSwordService"
             landmarkType = "7">
             <Locations>
                <Location
@@ -721,11 +548,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "403"
-            endingLineNumber = "403"
+            startingLineNumber = "416"
+            endingLineNumber = "416"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
@@ -737,11 +564,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "557"
-            endingLineNumber = "557"
+            startingLineNumber = "570"
+            endingLineNumber = "570"
             landmarkName = "-getAllFriendList"
             landmarkType = "7">
             <Locations>
@@ -785,11 +612,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
-            timestampString = "548755015.432606"
+            timestampString = "551858425.630325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "+requestWihtMethod:url:params:success:failure:"
             landmarkType = "7">
          </BreakpointContent>
@@ -801,11 +628,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
-            timestampString = "548755156.057532"
+            timestampString = "551858425.630325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
             landmarkName = "+requestWihtMethod:url:params:success:failure:"
             landmarkType = "7">
          </BreakpointContent>
@@ -833,27 +660,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
+            timestampString = "550637439.5411741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "242"
-            endingLineNumber = "242"
-            landmarkName = "-getIMToken"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "252"
-            endingLineNumber = "252"
+            startingLineNumber = "227"
+            endingLineNumber = "227"
             landmarkName = "-getIMToken"
             landmarkType = "7">
          </BreakpointContent>
@@ -865,11 +676,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
-            timestampString = "548757673.898073"
+            timestampString = "551858425.630325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
             landmarkName = "+requestWihtMethod:url:params:success:failure:"
             landmarkType = "7">
          </BreakpointContent>
@@ -881,28 +692,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "540"
-            endingLineNumber = "540"
+            startingLineNumber = "553"
+            endingLineNumber = "553"
             landmarkName = "-searchBarShouldBeginEditing:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
-            timestampString = "549859785.91729"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "-getIMToken"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1297,11 +1092,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "545"
-            endingLineNumber = "545"
+            startingLineNumber = "558"
+            endingLineNumber = "558"
             landmarkName = "@implementation MailListViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1313,11 +1108,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "648"
-            endingLineNumber = "648"
+            startingLineNumber = "661"
+            endingLineNumber = "661"
             landmarkName = "-getFriendsFromNet"
             landmarkType = "7">
          </BreakpointContent>
@@ -1329,11 +1124,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "639"
-            endingLineNumber = "639"
+            startingLineNumber = "652"
+            endingLineNumber = "652"
             landmarkName = "-getFriendsFromNet"
             landmarkType = "7">
          </BreakpointContent>
@@ -1345,11 +1140,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "575"
-            endingLineNumber = "575"
+            startingLineNumber = "588"
+            endingLineNumber = "588"
             landmarkName = "-sortAndRefreshWithList:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1361,11 +1156,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "559"
-            endingLineNumber = "559"
+            startingLineNumber = "572"
+            endingLineNumber = "572"
             landmarkName = "-getAllFriendList"
             landmarkType = "7">
          </BreakpointContent>
@@ -1377,11 +1172,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "562"
-            endingLineNumber = "562"
+            startingLineNumber = "575"
+            endingLineNumber = "575"
             landmarkName = "-getAllFriendList"
             landmarkType = "7">
          </BreakpointContent>
@@ -1393,11 +1188,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-changeItem:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1409,11 +1204,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "-changeItem:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1425,11 +1220,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "135"
-            endingLineNumber = "135"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
             landmarkName = "-changeItem:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1441,11 +1236,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
             landmarkName = "-friendsTabelView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1457,11 +1252,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "239"
-            endingLineNumber = "239"
+            startingLineNumber = "252"
+            endingLineNumber = "252"
             landmarkName = "-setUpView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1473,11 +1268,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "273"
-            endingLineNumber = "273"
+            startingLineNumber = "286"
+            endingLineNumber = "286"
             landmarkName = "-friendsTabelView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1489,11 +1284,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "274"
-            endingLineNumber = "274"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
             landmarkName = "-friendsTabelView"
             landmarkType = "7">
          </BreakpointContent>
@@ -1505,11 +1300,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "361"
-            endingLineNumber = "361"
+            startingLineNumber = "374"
+            endingLineNumber = "374"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1521,11 +1316,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "364"
-            endingLineNumber = "364"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1537,11 +1332,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "362"
-            endingLineNumber = "362"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
             landmarkName = "-tableView:viewForHeaderInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1601,11 +1396,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549534010.866362"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "706"
-            endingLineNumber = "706"
+            startingLineNumber = "719"
+            endingLineNumber = "719"
             landmarkName = "-setTreeViewData"
             landmarkType = "7">
          </BreakpointContent>
@@ -1681,11 +1476,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
-            timestampString = "550113078.400557"
+            timestampString = "551865416.252416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -1745,11 +1540,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Utilities/RCDataBaseManager.m"
-            timestampString = "549533483.099438"
+            timestampString = "551842049.1743799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "466"
-            endingLineNumber = "466"
+            startingLineNumber = "467"
+            endingLineNumber = "467"
             landmarkName = "-insertFriendListToDB:complete:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1921,11 +1716,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "549533971.095776"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
@@ -1937,11 +1732,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
-            timestampString = "550403913.614114"
+            timestampString = "551865416.252416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "109"
-            endingLineNumber = "109"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "@implementation MessageViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -1969,11 +1764,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550478829.140793"
+            timestampString = "551850311.4728889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2017,11 +1812,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550478829.140793"
+            timestampString = "551850311.4728889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2033,11 +1828,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550478829.140793"
+            timestampString = "551850311.4728889"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-getUserInfoWithUserId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2113,11 +1908,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
-            timestampString = "550113078.400557"
+            timestampString = "551865416.252416"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "-titleUpdate"
             landmarkType = "7">
          </BreakpointContent>
@@ -2129,11 +1924,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550399065.8247041"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "713"
-            endingLineNumber = "713"
+            startingLineNumber = "715"
+            endingLineNumber = "715"
             landmarkName = "-getAllData"
             landmarkType = "7">
          </BreakpointContent>
@@ -2145,7 +1940,39 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550399065.8247041"
+            timestampString = "551255278.588567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "718"
+            endingLineNumber = "718"
+            landmarkName = "-getAllData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "551255278.588567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "732"
+            endingLineNumber = "732"
+            landmarkName = "-getAllData"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "716"
@@ -2160,44 +1987,12 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550399065.8247041"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "730"
-            endingLineNumber = "730"
-            landmarkName = "-getAllData"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550399065.8247041"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "714"
-            endingLineNumber = "714"
-            landmarkName = "-getAllData"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Utilities/RCDataBaseManager.m"
-            timestampString = "550396796.636946"
+            timestampString = "551842049.1743799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "501"
-            endingLineNumber = "501"
+            startingLineNumber = "502"
+            endingLineNumber = "502"
             landmarkName = "-getAllFriends"
             landmarkType = "7">
             <Locations>
@@ -2256,11 +2051,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Utilities/RCDataBaseManager.m"
-            timestampString = "550396839.508358"
+            timestampString = "551842049.1743799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "502"
-            endingLineNumber = "502"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
             landmarkName = "-getAllFriends"
             landmarkType = "7">
          </BreakpointContent>
@@ -2272,11 +2067,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550396861.35542"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "598"
-            endingLineNumber = "598"
+            startingLineNumber = "611"
+            endingLineNumber = "611"
             landmarkName = "-getFriendsFromBata"
             landmarkType = "7">
          </BreakpointContent>
@@ -2288,11 +2083,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550396946.857285"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "577"
-            endingLineNumber = "577"
+            startingLineNumber = "590"
+            endingLineNumber = "590"
             landmarkName = "-sortAndRefreshWithList:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2304,11 +2099,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550396964.705953"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "578"
-            endingLineNumber = "578"
+            startingLineNumber = "591"
+            endingLineNumber = "591"
             landmarkName = "-sortAndRefreshWithList:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2320,11 +2115,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550397130.426425"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "558"
-            endingLineNumber = "558"
+            startingLineNumber = "571"
+            endingLineNumber = "571"
             landmarkName = "-getAllFriendList"
             landmarkType = "7">
          </BreakpointContent>
@@ -2336,11 +2131,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550397134.127702"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "563"
-            endingLineNumber = "563"
+            startingLineNumber = "576"
+            endingLineNumber = "576"
             landmarkName = "-getAllFriendList"
             landmarkType = "7">
          </BreakpointContent>
@@ -2352,11 +2147,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
-            timestampString = "550397486.812058"
+            timestampString = "550656511.6648639"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "328"
-            endingLineNumber = "328"
+            startingLineNumber = "341"
+            endingLineNumber = "341"
             landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2368,11 +2163,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550399065.8247041"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "717"
-            endingLineNumber = "717"
+            startingLineNumber = "719"
+            endingLineNumber = "719"
             landmarkName = "-getAllData"
             landmarkType = "7">
             <Locations>
@@ -2496,11 +2291,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550401834.189841"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "739"
-            endingLineNumber = "739"
+            startingLineNumber = "741"
+            endingLineNumber = "741"
             landmarkName = "-dealWithFriendList"
             landmarkType = "7">
          </BreakpointContent>
@@ -2524,15 +2319,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550465579.41372"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
             landmarkName = "-clickedDone:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2540,7 +2335,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
@@ -2556,7 +2351,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
@@ -2572,15 +2367,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550465648.977033"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "284"
-            endingLineNumber = "284"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
             landmarkName = "-clickedDone:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2588,15 +2383,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550465952.023145"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "298"
-            endingLineNumber = "298"
+            startingLineNumber = "299"
+            endingLineNumber = "299"
             landmarkName = "-clickedDone:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2604,15 +2399,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550465967.885561"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "296"
-            endingLineNumber = "296"
+            startingLineNumber = "297"
+            endingLineNumber = "297"
             landmarkName = "-clickedDone:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2620,15 +2415,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
-            timestampString = "550466019.647258"
+            timestampString = "551255278.588567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "389"
-            endingLineNumber = "389"
+            startingLineNumber = "391"
+            endingLineNumber = "391"
             landmarkName = "-clickedDone:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2640,11 +2435,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550567943.242486"
+            timestampString = "551853514.376609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "-getGroupInfoWithGroupId:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -2656,12 +2451,491 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550567943.242486"
+            timestampString = "551853514.376609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
+            timestampString = "550659269.315207"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "285"
+            endingLineNumber = "285"
+            landmarkName = "-LoginSwordService"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
+            timestampString = "550659269.315207"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "277"
+            endingLineNumber = "277"
+            landmarkName = "-LoginSwordService"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
+            timestampString = "550659269.315207"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
+            landmarkName = "-LoginSwordService"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/BaseController/MainTabBarViewController.m"
+            timestampString = "550656511.6648639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "-getFriendList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
+            timestampString = "551865416.252416"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-updatelist"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/BaseController/MainTabBarViewController.m"
+            timestampString = "550642180.169906"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-getFriendList"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
+            timestampString = "551865416.252416"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
+            landmarkName = "-dealloc"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
+            timestampString = "550656511.6648639"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "-changeItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MailListViewController.m"
+            timestampString = "550663158.671345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "847"
+            endingLineNumber = "847"
+            landmarkName = "-treeView:didSelectRowForItem:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "551255278.588567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "345"
+            endingLineNumber = "345"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "551255278.588567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDContactSelectedTableViewController.m"
+            timestampString = "551255278.588567"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "293"
+            endingLineNumber = "293"
+            landmarkName = "-clickedDone:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDCreateGroupViewController.m"
+            timestampString = "551842049.1743799"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "302"
+            endingLineNumber = "302"
+            landmarkName = "-gotoChatView:groupName:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/RCDPersonDetailViewController.m"
+            timestampString = "551255877.48114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "-btnConversation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
+            timestampString = "551257958.241444"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "312"
+            endingLineNumber = "312"
+            landmarkName = "-LoginSwordService"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/LoginViewController.m"
+            timestampString = "551257974.433014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "-LoginSwordService"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MaillistPush/FriendBook/RCDCreateGroupViewController.m"
+            timestampString = "551345454.309535"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "279"
+            endingLineNumber = "279"
+            landmarkName = "-ClickDoneBtn:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "430"
+            endingLineNumber = "430"
+            landmarkName = "+createGroupWithGroupName:groupMemberList:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
             endingLineNumber = "66"
-            landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__59+[AFHttpTool requestWihtMethod:url:params:success:failure:]_block_invoke.93"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/lib/Tools/AFHttpTool.m"
+                  timestampString = "551671367.706157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.94"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/lib/Tools/AFHttpTool.m"
+                  timestampString = "551671367.708288"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.95"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/lib/Tools/AFHttpTool.m"
+                  timestampString = "551671367.7106889"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "115"
+                  endingLineNumber = "115"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/RCDHttpTool.m"
+            timestampString = "551850311.4728889"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "-createGroupWithGroupName:GroupMemberList:complete:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -2672,7 +2946,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550567943.242486"
+            timestampString = "551853514.376609"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -2687,13 +2961,317 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
-            timestampString = "550567943.242486"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/RCDHttpTool.m"
+            timestampString = "551851750.008947"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "68"
-            endingLineNumber = "68"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-getGroupByID:successCompletion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/RCDHttpTool.m"
+            timestampString = "551851771.846729"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-getGroupByID:successCompletion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "446"
+            endingLineNumber = "446"
+            landmarkName = "+getGroupByID:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "+requestWihtMethod:url:params:success:failure:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[AFHttpTool requestWihtMethod:url:params:success:failure:]"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/lib/Tools/AFHttpTool.m"
+                  timestampString = "551857723.7531919"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1484">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__59+[AFHttpTool requestWihtMethod:url:params:success:failure:]_block_invoke.56"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/lib/Tools/AFHttpTool.m"
+                  timestampString = "551857723.7548749"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/SwRYIMFriendInfo.m"
+            timestampString = "551853514.376609"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "-getGroupInfoWithGroupId:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/lib/Tools/AFHttpTool.m"
+            timestampString = "551858425.630325"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "447"
+            endingLineNumber = "447"
+            landmarkName = "+getGroupByID:success:failure:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
+            timestampString = "551865340.722896"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "-onSelectedTableRow:conversationModel:atIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-backNew"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-backNew"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "-rightBarButtonItemClicked:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382144.859671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "-rightBarButtonItemClicked:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessageViewController.m"
+            timestampString = "551947673.9916461"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "-onSelectedTableRow:conversationModel:atIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382236.388111"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-rightBarButtonItemClicked:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SWChatViewController rightBarButtonItemClicked:]"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/MessagePush/SWChatViewController.m"
+                  timestampString = "552383579.127067"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "193">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__50-[SWChatViewController rightBarButtonItemClicked:]_block_invoke"
+                  moduleName = "&#x7d22;&#x5fb7;OA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sw/Desktop/%E7%B4%A2%E5%BE%B7OA/%E7%B4%A2%E5%BE%B7OA/Controllers/MessagePush/SWChatViewController.m"
+                  timestampString = "552383579.129205"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x7d22;&#x5fb7;OA/Controllers/MessagePush/SWChatViewController.m"
+            timestampString = "552382245.795342"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "-rightBarButtonItemClicked:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -35,7 +35,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+
     [self.view addSubview:self.tableView];
     
     // 本地图片数组

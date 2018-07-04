@@ -28,6 +28,8 @@
     UIFont *font = [UIFont systemFontOfSize:19.f];
     NSDictionary *textAttributes = @{NSFontAttributeName : font, NSForegroundColorAttributeName : [UIColor whiteColor]};
     [self.navigationBar setTitleTextAttributes:textAttributes];
+    
+    self.navigationBar.tintColor = [UIColor whiteColor];
 
 }
 - (void)didReceiveMemoryWarning {

@@ -80,7 +80,7 @@
     hud = [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     hud.labelText = @"登录中...";
     [hud show:YES];
-    [self getIMToken];
+    [self LoginSwordService];
 
     
     
@@ -158,7 +158,7 @@
 
 
 
-//获取token 登录成功后
+//获取token 登录成功后 直接融云获取token
 -(void)getIMToken {
     
     
@@ -220,32 +220,7 @@
 
         [[RCIM sharedRCIM] initWithAppKey:APP_KEY];
         
-        [[RCIM sharedRCIM] connectWithToken:token     success:^(NSString *userId) {
-            NSLog(@"登陆成功。当前登录的用户ID：%@", userId);
-            
-            [RCDataBaseManager shareInstance];
-            //加载数据
-            
-            [self ceshiLogin];
-           
-        } error:^(RCConnectErrorCode status) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self showAlerTitle:@"错误" Message:@"连接聊天服务器错误"];
-                [hud hide:YES];
-            });
-            
-        } tokenIncorrect:^{
-            //token过期或者不正确。
-            //如果设置了token有效期并且token过期，请重新请求您的服务器获取新的token
-            //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self showAlerTitle:@"错误" Message:@"token错误"];
-                [hud hide:YES];
-            });
-           
-            NSLog(@"token错误");
-        }];
-
+        
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         
@@ -282,13 +257,18 @@
     
 }
 
--(void)ceshiLogin{
+-(void)LoginSwordService{
+    //测试默认登录成功
 
+    NSString *name = self.nameText.text;
+    NSString*passWord = self.passwordText.text;
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     
-    NSDictionary *dic =@{@"username":@"000470",
+    
+    
+    NSDictionary *dic =@{@"username":name,
                          
-                         @"password":@"000000"
+                         @"password":passWord
                          
                 
                          
@@ -299,21 +279,62 @@
     
     [manager POST:url parameters:dic success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
+        
+        
         WLog(@"%@",responseObject);
         NSNumber * k = responseObject[@"result"];
         if (k.intValue == 1) {
-            dispatch_async(dispatch_get_main_queue(), ^{
+            //保存默认用户
+//            NSString *token = @"9oj7J1n0CI13VrMceEGC5lSR+qxzdLD+LEgKupEShFA3bL7Kt5EYQS1iqMxIGU8x/tQj6o65txjp4evcsW48Jg==";
+            NSString *token = responseObject[@"token"];
+            [DEFAULTS setObject:name forKey:@"userName"];
+            [DEFAULTS setObject:passWord forKey:@"userPwd"];
+            [DEFAULTS setObject:token forKey:@"userToken"];
+            [DEFAULTS synchronize];
+            [[RCIM sharedRCIM] initWithAppKey:APP_KEY];
+            
+            //登录融云服务器
+            [[RCIM sharedRCIM] connectWithToken:token     success:^(NSString *userId) {
+                WLog(@"登陆成功。当前登录的用户ID：%@", userId);
                 
-                // 通知主线程刷新 神马的
-                [self sucssesLogining];
+                [RCDataBaseManager shareInstance];
+                //页面跳转
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    
+                    // 通知主线程刷新 神马的
+                    [self sucssesLogining];
+                    
+                });
                 
-            });
+                
+            } error:^(RCConnectErrorCode status) {
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self showAlerTitle:@"错误" Message:@"连接聊天服务器错误"];
+                    [hud hide:YES];
+                });
+                
+            } tokenIncorrect:^{
+                //token过期或者不正确。
+                //如果设置了token有效期并且token过期，请重新请求您的服务器获取新的token
+                //如果没有设置token有效期却提示token错误，请检查您客户端和服务器的appkey是否匹配，还有检查您获取token的流程。
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self showAlerTitle:@"错误" Message:@"token错误"];
+                    [hud hide:YES];
+                });
+                
+                NSLog(@"token错误");
+            }];
+
+          
+        }
+        else{
+            [hud hide:YES];
+            [self showAlerTitle:@"错误" Message:@"账号密码不对"];
         }
             
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         dispatch_async(dispatch_get_main_queue(), ^{
-            [hud hide:YES];
-            [self showAlerTitle:@"错误" Message:@"登录失败"];
+          
         });
        
     }];

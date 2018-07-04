@@ -410,6 +410,7 @@ static NSString *const groupMemberTableName = @"GROUPMEMBERTABLE";
     NSString *deleteSql =
         [NSString stringWithFormat:@"delete from %@ where %@ = '%@'", @"GROUPMEMBERTABLE", @"groupid", groupId];
 
+    //把用户id
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_LOW, 0), ^{
         [self.dbQueue inTransaction:^(FMDatabase *db, BOOL *rollback) {
             [db executeUpdate:deleteSql];

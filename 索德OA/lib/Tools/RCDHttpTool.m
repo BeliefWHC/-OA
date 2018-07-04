@@ -15,6 +15,7 @@
 #import "RCDUtilities.h"
 #import "RCDataBaseManager.h"
 #import "SortForTime.h"
+#import "MJExtension.h"
 
 @implementation RCDHttpTool
 
@@ -40,9 +41,9 @@
     [AFHttpTool createGroupWithGroupName:groupName
         groupMemberList:groupMemberList
         success:^(id response) {
-            if ([response[@"code"] integerValue] == 200) {
-                NSDictionary *result = response[@"result"];
-                userId(result[@"id"]);
+            if ([response[@"result"] isEqualToString:@"success"] ) {
+                NSString *groupId = response[@"groupId"];
+                userId(groupId);
             } else {
                 userId(nil);
             }
@@ -72,47 +73,50 @@
 - (void)getGroupByID:(NSString *)groupID successCompletion:(void (^)(RCDGroupInfo *group))completion {
     [AFHttpTool getGroupByID:groupID
         success:^(id response) {
-            NSString *code = [NSString stringWithFormat:@"%@", response[@"code"]];
-            NSDictionary *result = response[@"result"];
-            if (result && [code isEqualToString:@"200"]) {
-                RCDGroupInfo *group = [[RCDGroupInfo alloc] init];
-                group.groupId = [result objectForKey:@"id"];
-                group.groupName = [result objectForKey:@"name"];
-                group.portraitUri = [result objectForKey:@"portraitUri"];
-                if (!group.portraitUri || group.portraitUri.length <= 0) {
-                    group.portraitUri = [RCDUtilities defaultGroupPortrait:group];
-                }
-                group.creatorId = [result objectForKey:@"creatorId"];
-                group.introduce = [result objectForKey:@"introduce"];
-                if (!group.introduce) {
-                    group.introduce = @"";
-                }
-                group.number = [result objectForKey:@"memberCount"];
-                group.maxNumber = [result objectForKey:@"max_number"];
-                group.creatorTime = [result objectForKey:@"creat_datetime"];
-                if (![[result objectForKey:@"deletedAt"] isKindOfClass:[NSNull class]]) {
-                    group.isDismiss = @"YES";
-                } else {
-                    group.isDismiss = @"NO";
-                }
-                [[RCDataBaseManager shareInstance] insertGroupToDB:group];
-                if ([group.groupId isEqualToString:groupID] && completion) {
-                    completion(group);
-                } else if (completion) {
-                    completion(nil);
-                }
-            } else {
-                if (completion) {
-                    completion(nil);
-                }
+            if ([response isKindOfClass:[NSDictionary class]]) {
+                RCDGroupInfo *groupUpdate = [RCDGroupInfo mj_objectWithKeyValues:response];
+                completion(groupUpdate);
+
             }
+//            NSString *code = [NSString stringWithFormat:@"%@", response[@"code"]];
+//            NSDictionary *result = response[@"result"];
+//            if (result && [code isEqualToString:@"200"]) {
+//                RCDGroupInfo *group = [[RCDGroupInfo alloc] init];
+//                group.groupId = [result objectForKey:@"id"];
+//                group.groupName = [result objectForKey:@"name"];
+//                group.portraitUri = [result objectForKey:@"portraitUri"];
+//                if (!group.portraitUri || group.portraitUri.length <= 0) {
+//                    group.portraitUri = [RCDUtilities defaultGroupPortrait:group];
+//                }
+//                group.creatorId = [result objectForKey:@"creatorId"];
+//                group.introduce = [result objectForKey:@"introduce"];
+//                if (!group.introduce) {
+//                    group.introduce = @"";
+//                }
+//                group.number = [result objectForKey:@"memberCount"];
+//                group.maxNumber = [result objectForKey:@"max_number"];
+//                group.creatorTime = [result objectForKey:@"creat_datetime"];
+//                if (![[result objectForKey:@"deletedAt"] isKindOfClass:[NSNull class]]) {
+//                    group.isDismiss = @"YES";
+//                } else {
+//                    group.isDismiss = @"NO";
+//                }
+//                if ([group.groupId isEqualToString:groupID] && completion) {
+//                    completion(group);
+//                } else if (completion) {
+//                    completion(nil);
+//                }
+//            } else {
+//                if (completion) {
+//                    completion(nil);
+//                }
+//            }
         }
         failure:^(NSError *err) {
-            RCDGroupInfo *group = [[RCDataBaseManager shareInstance] getGroupByGroupId:groupID];
-            if (!group.portraitUri || group.portraitUri.length <= 0) {
-                group.portraitUri = [RCDUtilities defaultGroupPortrait:group];
+            if (completion) {
+                completion(nil);
+
             }
-            completion(group);
         }];
 }
 
@@ -270,16 +274,18 @@
     __block NSMutableArray *tempArr = [NSMutableArray new];
     [AFHttpTool getGroupMembersByID:groupId
         success:^(id response) {
-            if ([response[@"code"] integerValue] == 200) {
-                NSArray *members = response[@"result"];
-                for (NSDictionary *memberInfo in members) {
+            if (![response isKindOfClass:[NSArray class]]) {
+                block(nil);
+            }
+            if (YES) {
+                ;
+                for (NSDictionary *memberInfo in response) {
                     NSDictionary *tempInfo = memberInfo[@"user"];
                     RCDUserInfo *member = [[RCDUserInfo alloc] init];
                     member.userId = tempInfo[@"id"];
-                    member.name = tempInfo[@"nickname"];
-                    member.portraitUri = tempInfo[@"portraitUri"];
-                    member.updatedAt = memberInfo[@"createdAt"];
-                    member.displayName = memberInfo[@"displayName"];
+                    member.name = tempInfo[@"name"];
+                    member.portraitUri = tempInfo[@"picture"];
+                
                     if (!member.portraitUri || member.portraitUri <= 0) {
                         member.portraitUri = [RCDUtilities defaultUserPortrait:member];
                     }

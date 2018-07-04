@@ -30,7 +30,7 @@
 
 @property(nonatomic, assign) BOOL forCreatingDiscussionGroup;
 
-@property(nonatomic, strong) NSMutableArray *addDiscussionGroupMembers;
+@property(nonatomic, strong) NSMutableArray *addDiscussionGroupMembers;//添加成员
 
 @property(nonatomic, strong) NSString *discussiongroupId;
 
@@ -38,7 +38,7 @@
 
 @property(nonatomic, strong) void (^selectUserList)(NSArray<RCUserInfo *> *selectedUserList);
 
-@property BOOL isAllowsMultipleSelection;
+@property BOOL isAllowsMultipleSelection;//是否多选或者单聊
 
 @property BOOL isHideSelectedIcon;
 

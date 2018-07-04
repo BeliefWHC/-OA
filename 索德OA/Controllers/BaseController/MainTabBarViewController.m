@@ -63,17 +63,28 @@
             
             NSMutableArray *user = [RCDUserInfo mj_objectArrayWithKeyValuesArray:response[@"list"]];
             
-            //发送通知  通讯录获取成功
             [[RCDataBaseManager shareInstance] insertFriendListToDB:user complete:^(BOOL result) {
-                
+                //发送通知  通讯录获取成功
+                if (result) {
+                    [[NSNotificationCenter defaultCenter]postNotificationName:SEND_GET_FRIEND_LIST_SUCCESS object:nil];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [hud hide:YES];
+                        [SVProgressHUD showInfoWithStatus:@"信息获取成功"];
+                        
+                    });
+                }
+                else{
+                //信息初始化失败
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [hud hide:YES];
+                        [SVProgressHUD showInfoWithStatus:@"信息初始化失败请在通讯录从新同步"];
+                        
+                    });
+                }
                 
             }];
             
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [hud hide:YES];
-                [SVProgressHUD showInfoWithStatus:@"信息获取成功"];
-             
-            });
+           
             
             
             

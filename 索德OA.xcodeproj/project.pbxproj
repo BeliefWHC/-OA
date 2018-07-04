@@ -17,6 +17,7 @@
 		D074F93220BE9BB800B17267 /* textorg.json in Resources */ = {isa = PBXBuildFile; fileRef = D074F93120BE9BB800B17267 /* textorg.json */; };
 		D074F93620BFFA6F00B17267 /* PersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D074F93420BFFA6F00B17267 /* PersonDetailViewController.m */; };
 		D074F93720BFFA6F00B17267 /* PersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D074F93520BFFA6F00B17267 /* PersonDetailViewController.xib */; };
+		D089CD5920E4CF3D00859E79 /* RCDUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D089CD5820E4CF3D00859E79 /* RCDUIBarButtonItem.m */; };
 		D09ACBDC20AA839900C19C95 /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ACBDB20AA839900C19C95 /* MainTabBarViewController.m */; };
 		D09ACBDF20AA86E100C19C95 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ACBDE20AA86E100C19C95 /* MessageViewController.m */; };
 		D09ACBE220AA88DC00C19C95 /* ApplicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ACBE120AA88DC00C19C95 /* ApplicationViewController.m */; };
@@ -24,6 +25,13 @@
 		D09ACBE820AA89CF00C19C95 /* MailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ACBE720AA89CF00C19C95 /* MailListViewController.m */; };
 		D09ACBEF20AC0DB400C19C95 /* ApplicationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ACBED20AC0DB400C19C95 /* ApplicationCell.m */; };
 		D09ACBF020AC0DB400C19C95 /* ApplicationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09ACBEE20AC0DB400C19C95 /* ApplicationCell.xib */; };
+		D0A0EEAA20EC786A00508EAB /* RCDGroupSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEA920EC786A00508EAB /* RCDGroupSettingsTableViewController.m */; };
+		D0A0EEAE20EC787900508EAB /* RCDGroupSettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEAD20EC787900508EAB /* RCDGroupSettingsTableViewCell.m */; };
+		D0A0EEB120EC814E00508EAB /* RCDBaseSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEB020EC814E00508EAB /* RCDBaseSettingTableViewCell.m */; };
+		D0A0EEB420EC823200508EAB /* RCDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEB320EC823200508EAB /* RCDTableViewController.m */; };
+		D0A0EEB720EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEB620EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.m */; };
+		D0A0EEBA20EC84B200508EAB /* RCDEditGroupNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEB920EC84B200508EAB /* RCDEditGroupNameViewController.m */; };
+		D0A0EEBD20EC9A8F00508EAB /* RCDGroupMembersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A0EEBC20EC9A8F00508EAB /* RCDGroupMembersTableViewController.m */; };
 		D0C37ED920A924AD00055C9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C37ED820A924AD00055C9A /* main.m */; };
 		D0C37EDC20A924AD00055C9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C37EDB20A924AD00055C9A /* AppDelegate.m */; };
 		D0C37EDF20A924AD00055C9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C37EDE20A924AD00055C9A /* ViewController.m */; };
@@ -34,6 +42,8 @@
 		D0C37EFD20A924AD00055C9A /* __OAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C37EFC20A924AD00055C9A /* __OAUITests.m */; };
 		D0C37F1220A972E200055C9A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C37F1020A972E200055C9A /* LoginViewController.m */; };
 		D0C37F1320A972E200055C9A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0C37F1120A972E200055C9A /* LoginViewController.xib */; };
+		D0CCB8E820D254590054BA48 /* MyGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CCB8E620D254590054BA48 /* MyGroupsViewController.m */; };
+		D0CCB8E920D2545A0054BA48 /* MyGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CCB8E720D254590054BA48 /* MyGroupsViewController.xib */; };
 		D0D0A93120CA06BB005510E0 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0A93020CA06BB005510E0 /* KxMenu.m */; };
 		D0D0A93420CA0E2E005510E0 /* UIImage+RCImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0A93320CA0E2E005510E0 /* UIImage+RCImage.m */; };
 		D0D0A93820CA3825005510E0 /* RCDContactSelectedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D0A93720CA3825005510E0 /* RCDContactSelectedTableViewController.m */; };
@@ -129,6 +139,8 @@
 		D074F93320BFFA6F00B17267 /* PersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDetailViewController.h; sourceTree = "<group>"; };
 		D074F93420BFFA6F00B17267 /* PersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDetailViewController.m; sourceTree = "<group>"; };
 		D074F93520BFFA6F00B17267 /* PersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonDetailViewController.xib; sourceTree = "<group>"; };
+		D089CD5720E4CF3D00859E79 /* RCDUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDUIBarButtonItem.h; sourceTree = "<group>"; };
+		D089CD5820E4CF3D00859E79 /* RCDUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDUIBarButtonItem.m; sourceTree = "<group>"; };
 		D09ACBDA20AA839900C19C95 /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
 		D09ACBDB20AA839900C19C95 /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
 		D09ACBDD20AA86E100C19C95 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
@@ -142,6 +154,20 @@
 		D09ACBEC20AC0DB400C19C95 /* ApplicationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationCell.h; sourceTree = "<group>"; };
 		D09ACBED20AC0DB400C19C95 /* ApplicationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationCell.m; sourceTree = "<group>"; };
 		D09ACBEE20AC0DB400C19C95 /* ApplicationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApplicationCell.xib; sourceTree = "<group>"; };
+		D0A0EEA820EC786A00508EAB /* RCDGroupSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDGroupSettingsTableViewController.h; sourceTree = "<group>"; };
+		D0A0EEA920EC786A00508EAB /* RCDGroupSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDGroupSettingsTableViewController.m; sourceTree = "<group>"; };
+		D0A0EEAC20EC787900508EAB /* RCDGroupSettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDGroupSettingsTableViewCell.h; sourceTree = "<group>"; };
+		D0A0EEAD20EC787900508EAB /* RCDGroupSettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDGroupSettingsTableViewCell.m; sourceTree = "<group>"; };
+		D0A0EEAF20EC814E00508EAB /* RCDBaseSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDBaseSettingTableViewCell.h; sourceTree = "<group>"; };
+		D0A0EEB020EC814E00508EAB /* RCDBaseSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDBaseSettingTableViewCell.m; sourceTree = "<group>"; };
+		D0A0EEB220EC823200508EAB /* RCDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDTableViewController.h; sourceTree = "<group>"; };
+		D0A0EEB320EC823200508EAB /* RCDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDTableViewController.m; sourceTree = "<group>"; };
+		D0A0EEB520EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDConversationSettingTableViewHeaderItem.h; sourceTree = "<group>"; };
+		D0A0EEB620EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDConversationSettingTableViewHeaderItem.m; sourceTree = "<group>"; };
+		D0A0EEB820EC84B200508EAB /* RCDEditGroupNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDEditGroupNameViewController.h; sourceTree = "<group>"; };
+		D0A0EEB920EC84B200508EAB /* RCDEditGroupNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDEditGroupNameViewController.m; sourceTree = "<group>"; };
+		D0A0EEBB20EC9A8F00508EAB /* RCDGroupMembersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCDGroupMembersTableViewController.h; sourceTree = "<group>"; };
+		D0A0EEBC20EC9A8F00508EAB /* RCDGroupMembersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCDGroupMembersTableViewController.m; sourceTree = "<group>"; };
 		D0C37ED420A924AD00055C9A /* 索德OA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "索德OA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C37ED820A924AD00055C9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D0C37EDA20A924AD00055C9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -162,6 +188,9 @@
 		D0C37F0F20A972E200055C9A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		D0C37F1020A972E200055C9A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		D0C37F1120A972E200055C9A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		D0CCB8E520D254590054BA48 /* MyGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGroupsViewController.h; sourceTree = "<group>"; };
+		D0CCB8E620D254590054BA48 /* MyGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGroupsViewController.m; sourceTree = "<group>"; };
+		D0CCB8E720D254590054BA48 /* MyGroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyGroupsViewController.xib; sourceTree = "<group>"; };
 		D0D0A92F20CA06BB005510E0 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
 		D0D0A93020CA06BB005510E0 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 		D0D0A93220CA0E2E005510E0 /* UIImage+RCImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RCImage.h"; sourceTree = "<group>"; };
@@ -355,6 +384,9 @@
 				D032DE4F20C7EAE600752B9A /* DepartmentViewController.h */,
 				D032DE5020C7EAE600752B9A /* DepartmentViewController.m */,
 				D032DE5120C7EAE600752B9A /* DepartmentViewController.xib */,
+				D0CCB8E520D254590054BA48 /* MyGroupsViewController.h */,
+				D0CCB8E620D254590054BA48 /* MyGroupsViewController.m */,
+				D0CCB8E720D254590054BA48 /* MyGroupsViewController.xib */,
 			);
 			path = MaillistPush;
 			sourceTree = "<group>";
@@ -370,6 +402,21 @@
 				D0F3818520AEBB1400677E06 /* BaseNavViewController.m */,
 			);
 			path = BaseController;
+			sourceTree = "<group>";
+		};
+		D0A0EEAB20EC787900508EAB /* MessageViews */ = {
+			isa = PBXGroup;
+			children = (
+				D0A0EEB520EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.h */,
+				D0A0EEB620EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.m */,
+				D0A0EEB220EC823200508EAB /* RCDTableViewController.h */,
+				D0A0EEB320EC823200508EAB /* RCDTableViewController.m */,
+				D0A0EEAF20EC814E00508EAB /* RCDBaseSettingTableViewCell.h */,
+				D0A0EEB020EC814E00508EAB /* RCDBaseSettingTableViewCell.m */,
+				D0A0EEAC20EC787900508EAB /* RCDGroupSettingsTableViewCell.h */,
+				D0A0EEAD20EC787900508EAB /* RCDGroupSettingsTableViewCell.m */,
+			);
+			path = MessageViews;
 			sourceTree = "<group>";
 		};
 		D0C37ECB20A924AB00055C9A = {
@@ -482,6 +529,7 @@
 		D0C37F0E20A9728C00055C9A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D0A0EEAB20EC787900508EAB /* MessageViews */,
 				D0F3818B20B2AA5B00677E06 /* MailListTablList */,
 				D09ACBEC20AC0DB400C19C95 /* ApplicationCell.h */,
 				D09ACBED20AC0DB400C19C95 /* ApplicationCell.m */,
@@ -545,6 +593,12 @@
 		D0F3817D20AEA78C00677E06 /* MessagePush */ = {
 			isa = PBXGroup;
 			children = (
+				D0A0EEBB20EC9A8F00508EAB /* RCDGroupMembersTableViewController.h */,
+				D0A0EEBC20EC9A8F00508EAB /* RCDGroupMembersTableViewController.m */,
+				D0A0EEB820EC84B200508EAB /* RCDEditGroupNameViewController.h */,
+				D0A0EEB920EC84B200508EAB /* RCDEditGroupNameViewController.m */,
+				D0A0EEA820EC786A00508EAB /* RCDGroupSettingsTableViewController.h */,
+				D0A0EEA920EC786A00508EAB /* RCDGroupSettingsTableViewController.m */,
 				D0F3821020B3CF3900677E06 /* RCDPersonDetailViewController.h */,
 				D0F3821120B3CF3900677E06 /* RCDPersonDetailViewController.m */,
 				D074F93320BFFA6F00B17267 /* PersonDetailViewController.h */,
@@ -581,6 +635,8 @@
 		D0F3819220B2B08C00677E06 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D089CD5720E4CF3D00859E79 /* RCDUIBarButtonItem.h */,
+				D089CD5820E4CF3D00859E79 /* RCDUIBarButtonItem.m */,
 				D0D0A92E20CA06BB005510E0 /* KxMenu */,
 				D0E4A5B820C687C30059C4FE /* images */,
 				D0E4A5B420C686E00059C4FE /* SPCarouselView */,
@@ -774,6 +830,7 @@
 				D0C37F1320A972E200055C9A /* LoginViewController.xib in Resources */,
 				D0F3827620BE32EC00677E06 /* TreeContactCell.xib in Resources */,
 				D0F3822620BBA91A00677E06 /* SVProgressHUD.bundle in Resources */,
+				D0CCB8E920D2545A0054BA48 /* MyGroupsViewController.xib in Resources */,
 				D09ACBF020AC0DB400C19C95 /* ApplicationCell.xib in Resources */,
 				D074F93720BFFA6F00B17267 /* PersonDetailViewController.xib in Resources */,
 				D0C37EE720A924AD00055C9A /* LaunchScreen.storyboard in Resources */,
@@ -878,20 +935,28 @@
 				D0F3821E20B506E700677E06 /* RCDataBaseManager.m in Sources */,
 				D0F381C120B2B0E400677E06 /* SDWebImageManager.m in Sources */,
 				D0F3827120BE31CD00677E06 /* RaTreeModel.m in Sources */,
+				D0A0EEB720EC848F00508EAB /* RCDConversationSettingTableViewHeaderItem.m in Sources */,
 				D0F3821820B5004C00677E06 /* RCDRCIMDataSource.m in Sources */,
 				D0F381BE20B2B0E400677E06 /* SDWebImageDecoder.m in Sources */,
 				D0F3818E20B2AA5B00677E06 /* RCDTableView.m in Sources */,
+				D0A0EEBA20EC84B200508EAB /* RCDEditGroupNameViewController.m in Sources */,
+				D089CD5920E4CF3D00859E79 /* RCDUIBarButtonItem.m in Sources */,
 				D0F3819520B2B08C00677E06 /* UIColor+RCColor.m in Sources */,
 				D0F3821B20B5068900677E06 /* RCDUserInfoManager.m in Sources */,
 				D0F381C220B2B0E400677E06 /* SDWebImagePrefetcher.m in Sources */,
+				D0A0EEAA20EC786A00508EAB /* RCDGroupSettingsTableViewController.m in Sources */,
+				D0A0EEB120EC814E00508EAB /* RCDBaseSettingTableViewCell.m in Sources */,
+				D0A0EEB420EC823200508EAB /* RCDTableViewController.m in Sources */,
 				D0F381C320B2B0E400677E06 /* SortForTime.m in Sources */,
 				D0D0A94720CE5919005510E0 /* SWChatViewController.m in Sources */,
 				D0D0A93820CA3825005510E0 /* RCDContactSelectedTableViewController.m in Sources */,
 				D0F3819120B2B02F00677E06 /* RCDContactTableViewCell.m in Sources */,
+				D0A0EEBD20EC9A8F00508EAB /* RCDGroupMembersTableViewController.m in Sources */,
 				D09ACBE220AA88DC00C19C95 /* ApplicationViewController.m in Sources */,
 				D0F3827520BE32EC00677E06 /* TreeContactCell.m in Sources */,
 				D0F381D320B2B4C000677E06 /* RCDUtilities.m in Sources */,
 				D0F3821220B3CF3900677E06 /* RCDPersonDetailViewController.m in Sources */,
+				D0A0EEAE20EC787900508EAB /* RCDGroupSettingsTableViewCell.m in Sources */,
 				D0D0A93E20CE44DC005510E0 /* RCDContactSelectedTableViewCell.m in Sources */,
 				D0F3818320AEB93E00677E06 /* BaseViewController.m in Sources */,
 				D0E4A5B720C686E00059C4FE /* SPCarouselView.m in Sources */,
@@ -907,6 +972,7 @@
 				D0F381BC20B2B0E400677E06 /* SDImageCache.m in Sources */,
 				D0F381BF20B2B0E400677E06 /* SDWebImageDownloader.m in Sources */,
 				D09ACBEF20AC0DB400C19C95 /* ApplicationCell.m in Sources */,
+				D0CCB8E820D254590054BA48 /* MyGroupsViewController.m in Sources */,
 				D0D0A94120CE4A92005510E0 /* RCDCreateGroupViewController.m in Sources */,
 				D0D0A93420CA0E2E005510E0 /* UIImage+RCImage.m in Sources */,
 				D09ACBE820AA89CF00C19C95 /* MailListViewController.m in Sources */,

@@ -16,6 +16,7 @@
 #import "UIImageView+WebCache.h"
 #import <RongIMKit/RongIMKit.h>
 #import <RongIMLib/RCUserInfo.h>
+#import "SWChatViewController.h"
 //#import "RCDUIBarButtonItem.h"
 @interface RCDPersonDetailViewController () <UIActionSheetDelegate>
 @property(nonatomic) BOOL inBlackList;
@@ -185,7 +186,7 @@
 - (void)btnConversation:(id)sender {
     [[NSNotificationCenter defaultCenter] postNotificationName:@"ChangeTabBarIndex" object:@0];
     //创建会话
-    RCConversationViewController *chatViewController = [[RCConversationViewController alloc] init];
+    SWChatViewController *chatViewController = [[SWChatViewController alloc] init];
     chatViewController.conversationType = ConversationType_PRIVATE;
 
     chatViewController.targetId = self.userId;
@@ -201,7 +202,7 @@
     }
     chatViewController.title = title;
     //whc
-//    chatViewController.needPopToRootView = YES;
+    chatViewController.needPopToRootView = YES;
     chatViewController.displayUserNameInCell = NO;
     [self.navigationController pushViewController:chatViewController animated:YES];
 }

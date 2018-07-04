@@ -10,4 +10,6 @@
 
 @interface DepartmentViewController : UIViewController
 
+@property(strong,nonatomic)NSString *orgenizeId;
+
 @end

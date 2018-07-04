@@ -1,19 +1,18 @@
 //
-//  DepartmentViewController.m
-//  索德OA b部门详细成员
+//  MyGroupsViewController.m
+//  索德OA
 //
-//  Created by sw on 18/6/6.
+//  Created by sw on 18/6/14.
 //  Copyright © 2018年 sw. All rights reserved.
 //
 
-#import "DepartmentViewController.h"
-#import "AFHttpTool.h"
+#import "MyGroupsViewController.h"
 
-@interface DepartmentViewController ()
+@interface MyGroupsViewController ()
 
 @end
 
-@implementation DepartmentViewController
+@implementation MyGroupsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,11 +22,9 @@
     [self setUpTiltle];
 }
 -(void)setUpTiltle{
-    
-    self.title = @"同一部门";
-    
-}
+    self.title = @"我的群组";
 
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

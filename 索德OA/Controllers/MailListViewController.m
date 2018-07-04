@@ -23,6 +23,7 @@
 #import "RATreeView.h"
 #import "TreeContactCell.h"
 #import "DepartmentViewController.h"
+#import "MyGroupsViewController.h"
 
 #define TITLE_ITEM_HEIGHT 40.f
 
@@ -139,6 +140,12 @@ typedef enum {
           
             break;
         case SameDepartment:
+            // 同部门
+            
+        {
+            DepartmentViewController *department = [[DepartmentViewController alloc]init];
+            [self.navigationController pushViewController:department animated:YES];
+        }
             
             break;
         case SwordOrgernize:
@@ -148,6 +155,12 @@ typedef enum {
         }
             break;
         case FrequnetContact:
+            //我的群组
+        {
+        
+            MyGroupsViewController *mygroup = [[MyGroupsViewController alloc]init];
+            [self.navigationController pushViewController:mygroup animated:YES];
+        }
             
             break;
         default:
@@ -832,7 +845,15 @@ typedef enum {
     //当前点击的model
     RaTreeModel *model = item;
     
-    NSLog(@"点击的是第%ld层,name=%@",level,model.orgName);
+    if (model.childOrgs.count == 0) {
+        DepartmentViewController *department = [[DepartmentViewController alloc]init];
+        department.orgenizeId = model.orgId;
+        [self.navigationController pushViewController:department animated:YES];
+        
+
+    }
+    
+    
     
 }
 

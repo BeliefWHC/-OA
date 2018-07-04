@@ -273,7 +273,8 @@ MBProgressHUD *hud;
         chat.userName = user.name;
         chat.conversationType = ConversationType_PRIVATE;
         chat.title = user.name;
-//        chat.needPopToRootView = YES;
+        
+        chat.needPopToRootView = YES;
         chat.displayUserNameInCell = NO;
         //跳转到会话页面
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -374,7 +375,7 @@ MBProgressHUD *hud;
                             chat.conversationType = ConversationType_DISCUSSION;
                             chat.title = @"讨论组";
                             //返回首页
-//                            chat.needPopToRootView = YES;
+                            chat.needPopToRootView = YES;
                             [self.navigationController pushViewController:chat animated:YES];
                         });
                     }
@@ -384,6 +385,7 @@ MBProgressHUD *hud;
                 return;
             }
         }
+        //是否创建新群组
         if (self.forCreatingGroup) {
             RCDCreateGroupViewController *createGroupVC = [RCDCreateGroupViewController createGroupViewController];
             createGroupVC.GroupMemberIdList = seletedUsersId;
@@ -399,7 +401,7 @@ MBProgressHUD *hud;
             chat.conversationType = ConversationType_PRIVATE;
             chat.title = user.name;
             //whc  是否返回首页
-//            chat.needPopToRootView = YES;
+            chat.needPopToRootView = YES;
             chat.displayUserNameInCell = NO;
 
             //跳转到会话页面
@@ -427,7 +429,7 @@ MBProgressHUD *hud;
                         chat.userName = discussion.discussionName;
                         chat.conversationType = ConversationType_DISCUSSION;
                         chat.title = @"讨论组";
-//                        chat.needPopToRootView = YES;
+                        chat.needPopToRootView = YES;
                         [self.navigationController pushViewController:chat animated:YES];
                     });
                 }

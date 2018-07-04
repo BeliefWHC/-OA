@@ -8,6 +8,7 @@
 
 #import "RCDGroupInfo.h"
 
+
 @implementation RCDGroupInfo
 #define KEY_RCDGROUP_INFO_NUMBER @"number"
 
@@ -26,4 +27,5 @@
     [super encodeWithCoder:encoder];
     [encoder encodeObject:self.number forKey:KEY_RCDGROUP_INFO_NUMBER];
 }
+
 @end

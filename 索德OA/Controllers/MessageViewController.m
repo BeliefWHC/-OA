@@ -10,6 +10,7 @@
 #import "SwordUIBarButtonItem.h"
 #import "RCDContactSelectedTableViewController.h"
 #import "KxMenu.h"
+#import "SWChatViewController.h"
 
 @interface MessageViewController ()
 
@@ -20,8 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //添加获取新列表通知
+    [self addAnyNotifyCenter];
     [self titleUpdate];
 }
+//注册通知
+
 -(void)titleUpdate{
     self.view.backgroundColor = [UIColor clearColor];
     self.title = @"消息";
@@ -135,7 +140,7 @@
                atIndexPath:(NSIndexPath *)indexPath
 
 {
-    RCConversationViewController *rCC = [[RCConversationViewController alloc]init];
+    SWChatViewController *rCC = [[SWChatViewController alloc]init];
     
     rCC.conversationType = model.conversationType;
     rCC.targetId = model.targetId;
@@ -151,6 +156,20 @@
 -(void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     self.hidesBottomBarWhenPushed = NO;
+}
+#pragma maek 注册通知
+-(void)addAnyNotifyCenter{
+    
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(updatelist) name:SEND_GET_FRIEND_LIST_SUCCESS object:nil];
+    
+}
+-(void)updatelist{
+    [self refreshConversationTableViewIfNeeded];
+
+}
+-(void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SEND_GET_FRIEND_LIST_SUCCESS object:nil];
+
 }
 
 @end

@@ -55,7 +55,13 @@
     }
     //获得请求管理者
     AFHTTPRequestOperationManager *mgr = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
-
+    //判断是否是多参数请求
+    //根据请求的地址判断
+    if ([url containsString:CREAT_GROUP]) {
+        mgr.requestSerializer = [AFJSONRequestSerializer serializer];
+        mgr.responseSerializer = [AFJSONResponseSerializer serializer];
+    }
+   
 #ifdef ContentType
     mgr.responseSerializer.acceptableContentTypes = [NSSet setWithObject:ContentType];
 #endif
@@ -395,13 +401,34 @@
 }
 
 // create group
+//数据结构
+//{
+//    "creater":"000890",//创建人工号
+//    "groupId": "1001111",//群组id
+//    "groupName": "发发发",//群组名称
+//    "members": [{//群组人员
+//        "id": "000890"
+//    },
+//                {
+//                    "id": "000690"
+//                }
+//                ]
+//}
 + (void)createGroupWithGroupName:(NSString *)groupName
                  groupMemberList:(NSArray *)groupMemberList
                          success:(void (^)(id response))success
+
                          failure:(void (^)(NSError *err))failure {
-    NSDictionary *params = @{@"name" : groupName, @"memberIds" : groupMemberList};
+    //获取当前登录用户ID
+    
+    NSString  *creator = [RCIM sharedRCIM].currentUserInfo.userId;
+    NSMutableArray *members = [NSMutableArray array];
+    for (NSString* ids in groupMemberList) {
+        [members addObject:@{@"id":ids}];
+    }
+    NSDictionary *params = @{@"creater":creator,@"groupName" : groupName, @"members" : members};
     [AFHttpTool requestWihtMethod:RequestMethodTypePost
-                              url:@"group/create"
+                              url:[NSString stringWithFormat:@"%@%@",BPMX_LOCAL,CREAT_GROUP]
                            params:params
                           success:success
                           failure:failure];
@@ -415,9 +442,11 @@
 + (void)getGroupByID:(NSString *)groupID
              success:(void (^)(id response))success
              failure:(void (^)(NSError *err))failure {
-    [AFHttpTool requestWihtMethod:RequestMethodTypeGet
-                              url:[NSString stringWithFormat:@"group/%@", groupID]
-                           params:nil
+    NSString *grouoInfo = [NSString stringWithFormat:@"%@%@",BPMX_LOCAL,GET_GROUP_INFO_BY_ID];
+    NSDictionary *param = @{@"groupId":groupID};
+    [AFHttpTool requestWihtMethod:RequestMethodTypePost
+                              url:grouoInfo
+                           params:param
                           success:success
                           failure:failure];
 }
@@ -439,9 +468,11 @@
 + (void)getGroupMembersByID:(NSString *)groupID
                     success:(void (^)(id response))success
                     failure:(void (^)(NSError *err))failure {
-    [AFHttpTool requestWihtMethod:RequestMethodTypeGet
-                              url:[NSString stringWithFormat:@"group/%@/members", groupID]
-                           params:nil
+    NSDictionary *param = @{@"groupId":groupID};
+    NSString *groupMembersUrl = [NSString stringWithFormat:@"%@%@",BPMX_LOCAL,GET_GROUP_MEMBERS_BY_ID];
+    [AFHttpTool requestWihtMethod:RequestMethodTypePost
+                              url:groupMembersUrl
+                           params:param
                           success:success
                           failure:failure];
 }
